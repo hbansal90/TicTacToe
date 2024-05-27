@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="./assests/image.png" sizes="16x16" type="image/png">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href ="styles/style.css">
 </head>
 <body>
-    
+    <div class="title-bar">
+        <h1>The Unbeatable Tic-Tac-Toe </h1>
+    </div>
+    <div class="grid">
+    <table>
+        <tr class ="first-row">
+            <td class="cell" id="0"> </td>
+            <td class = "cell" id = '1'> </td>
+            <td class ="cell" id ='2'> </td>
+        </tr>
+        <tr class="second-row">
+            <td class="cell" id="3"> </td>
+            <td class = "cell" id = '4'> </td>
+            <td class ="cell" id ='5'> </td>
+        </tr>
+        <tr class ="third-row">
+            <td class="cell" id="6"> </td>
+            <td class = "cell" id = '7'> </td>
+            <td class ="cell" id ='8'> </td>
+        </tr>
+    </table>
+    </div>
+    <div class = "endgame">
+        <div class = 'text'></div>
+        Scoreboard<br>
+        <div class = 'scoreboard'></div>
+    </div>
+    <button onClick="startGame()" class = "replay-button">Replay</button>
     <script src="scripts/script.js"></script>
 </body>
 </html>
